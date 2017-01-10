@@ -1,0 +1,50 @@
+body {
+    margin: 1em auto 1em auto;
+    width: 1240px;
+    padding-top: 50px;
+}
+
+#div1, #div2, #div3, #div4 {
+    width: 33%;
+    height: 200px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.selectedRadial {
+    border-radius: 3px;
+    background: #f4f4f4;
+    color: #000;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    border: 1px solid rgba(200,200,200,0.85);
+}
+
+.radial {
+    border-radius: 3px;
+    background: #FFFFFF;
+    color: #000;
+}
+
+.background {
+    fill: #FFFFFF;
+    fill-opacity: 0.01;
+}
+
+.device {
+    font-weight: bolder;
+}
+
+.component .label {
+    fill: #a0a0a0;
+}
+
+.label, .component .device {
+    font-family:  Myriad, "Helvetic Neue", Helvetica, Arial;
+    text-anchor: middle;
+}
+
+.radial-svg {
+    display: block;
+    margin: 0 auto;
+}
